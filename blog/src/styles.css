@@ -1,0 +1,36 @@
+p.jeden{
+  color: deeppink;
+}
+body{
+  background: white;
+}
+ul li {
+  display: inline;
+  background: black;
+  color: white;
+}
+ul {
+  text-align: center;
+  background: black;
+  color: white;
+}
+a {
+  color: white;
+  background-color: black;
+  transition: all 1s;
+}
+a:hover {
+  color: black;
+  background-color: white;
+}
+div.godzinypwsz ul {
+  text-align: left;
+  display: block;
+  background: white;
+  color: black;
+}
+div.godzinypwsz ul li {
+  display: block;
+  background: white;
+  color: black;
+}/* You can add global styles to this file, and also import other style files */
