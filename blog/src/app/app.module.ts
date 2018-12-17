@@ -9,6 +9,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { MapComponent } from './components/map/map.component';
 import { QuizComponent } from './components/quiz/quiz.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { BlogItemComponent } from './components/blog-item/blog-item.component';
+import { BlogItemTextComponent } from './components/blog-item-text/blog-item-text.component';
+import { BlogItemImageComponent } from './components/blog-item-image/blog-item-image.component';
+import { BlogItemDetailComponent } from './components/blog-item-detail/blog-item-detail.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     ContactComponent,
     MapComponent,
     QuizComponent,
-    NavBarComponent
+    NavBarComponent,
+    BlogItemComponent,
+    BlogItemTextComponent,
+    BlogItemImageComponent,
+    BlogItemDetailComponent
   ],
   imports: [
     BrowserModule
