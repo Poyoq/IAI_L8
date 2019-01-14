@@ -1,3 +1,6 @@
+{path: 'blog', component: BlogHomeComponent},
+
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -13,6 +16,10 @@ import { BlogItemComponent } from './components/blog-item/blog-item.component';
 import { BlogItemTextComponent } from './components/blog-item-text/blog-item-text.component';
 import { BlogItemImageComponent } from './components/blog-item-image/blog-item-image.component';
 import { BlogItemDetailComponent } from './components/blog-item-detail/blog-item-detail.component';
+import { FilterPipe } from './pipes/filter.pipe';
+import { FormsModule } from '@angular/forms';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { BlogHomeComponent } from './components/blog-home/blog-home.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +34,11 @@ import { BlogItemDetailComponent } from './components/blog-item-detail/blog-item
     BlogItemComponent,
     BlogItemTextComponent,
     BlogItemImageComponent,
-    BlogItemDetailComponent
+    BlogItemDetailComponent,
+    FilterPipe,
+    FormsModule,
+    SearchBarComponent,
+    BlogHomeComponent,
   ],
   imports: [
     BrowserModule

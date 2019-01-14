@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 @Input() image: string;
 @Input() text: string;
+@Input() filterText: string;
 
 @Component({
   selector: 'app-blog-item',

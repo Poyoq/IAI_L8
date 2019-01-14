@@ -1,10 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
   styleUrls: ['./blog.component.css']
 })
+
+@Input({ filterText: string;})
+
 export class BlogComponent implements OnInit {
 
   constructor() { }
